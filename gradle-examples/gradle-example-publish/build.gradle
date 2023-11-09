@@ -28,7 +28,7 @@ allprojects {
     version = currentVersion
     status = 'Integration'
     repositories {
-        mavenCentral()
+        //mavenCentral()
         maven {
             url "http://127.0.0.1:8081/artifactory/libs-release"
         }
