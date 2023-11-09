@@ -31,6 +31,7 @@ allprojects {
         //mavenCentral()
         maven {
             url "http://arti.test:8081/artifactory/libs-release"
+            setAllowInsecureProtocol(true);
         }
     }
 }
