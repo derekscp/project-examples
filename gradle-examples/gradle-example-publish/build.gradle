@@ -54,7 +54,7 @@ configure(javaProjects()) {
 
     dependencies {
         testImplementation 'junit:junit:4.7'
-        smokeTest 'org.apache.httpcomponents:httpclient:4.5.5'
+        implementation 'com.google.guava:guava:32.1.2-jre'
     }
 
     publishing {
