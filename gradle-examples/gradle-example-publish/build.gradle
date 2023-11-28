@@ -17,6 +17,11 @@
 ///plugins {
 ///    id("com.jfrog.artifactory") version "5.+"
 ///}
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+    id 'jacoco'
+}
 
 def javaProjects() {
     subprojects.findAll { new File(it.projectDir, 'src').directory }
