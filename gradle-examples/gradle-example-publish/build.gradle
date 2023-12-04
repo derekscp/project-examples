@@ -32,17 +32,17 @@ allprojects {
     group = 'org.jfrog.test.gradle.publish'
     version = currentVersion
     status = 'Integration'
-//    repositories {
-//        //mavenCentral()
-//        maven {
-//            url "http://arti.test:8081/artifactory/gradle-libs-release"
-//            setAllowInsecureProtocol(true);
-//            credentials {
+    repositories {
+        //mavenCentral()
+        maven {
+            url "http://arti.test:8081/artifactory/gradle-libs-release"
+            setAllowInsecureProtocol(true);
+            credentials {
 //				username 'test_resolver'
-//				password 'Password000test1*'
-//			}
-//        }
-//    }
+				password 'Password000test1*'
+			}
+        }
+    }
 }
 
 // Setting this property to true will make the artifactoryPublish task
