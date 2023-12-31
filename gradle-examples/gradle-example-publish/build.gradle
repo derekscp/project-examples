@@ -40,7 +40,7 @@ allprojects {
             credentials {
 //		                System.getenv('ARTIFACTORY_USR')
 //				username 'test_resolver'
-				password 'Password000test1*'
+//				password 'Password000test1*'
 			}
         }
     }
