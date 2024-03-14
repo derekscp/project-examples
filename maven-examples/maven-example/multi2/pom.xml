@@ -9,6 +9,7 @@
 
     <properties>
         <daversion>${project.parent.version}</daversion>
+        <password>OhNoIPutThisInProps</password>
     </properties>
 
     <artifactId>multi2</artifactId>
