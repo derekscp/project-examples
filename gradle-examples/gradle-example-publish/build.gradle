@@ -35,7 +35,7 @@ allprojects {
     repositories {
         //mavenCentral()
         maven {
-            url "http://arti.test:8081/artifactory/gradle-libs-none"
+            url "http://arti.test:8081/artifactory/gradle-libs-release"
             setAllowInsecureProtocol(true);
             credentials {
 //		                System.getenv('ARTIFACTORY_USR')
