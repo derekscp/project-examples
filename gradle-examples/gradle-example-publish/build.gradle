@@ -34,6 +34,10 @@ allprojects {
     status = 'Integration'
     repositories {
         //mavenCentral()
+	maven {
+            url "http://arti.test:8081/artifactory/gradle-libs-none"
+            setAllowInsecureProtocol(true);
+        }    
         maven {
             url "http://arti.test:8081/artifactory/gradle-libs-release"
             setAllowInsecureProtocol(true);
