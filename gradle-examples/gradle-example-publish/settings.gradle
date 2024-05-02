@@ -1,1 +1,6 @@
 include "shared", "api", "services:webservice"
+
+
+dependencyResolutionManagement {
+ repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
+}
